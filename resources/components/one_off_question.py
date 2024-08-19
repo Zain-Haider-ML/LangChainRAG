@@ -8,10 +8,9 @@ from langchain.schema import (
     SystemMessage,
 )
 
-# if not os.getenv("HUGGINGFACEHUB_API_TOKEN"):
-#     os.environ["HUGGINGFACEHUB_API_TOKEN"] = getpass.getpass("Enter your token: ")
 
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
+
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = 'Your Key'
 
 
 def OFQ(query, relevant_docs):
