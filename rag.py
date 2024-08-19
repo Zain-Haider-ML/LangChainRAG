@@ -12,13 +12,6 @@ import streamlit as st
 
 
 
-
-# MAIN
-# if user_info:
-#     store_name = user_info
-# else:
-#     store_name = 'RecursiveCharacterTextSplitter'
-
 # steamlit app
 st.title("Conservational RAG")
 
