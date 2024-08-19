@@ -1,8 +1,9 @@
 # from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
-from langchain.embeddings import SentenceTransformerEmbeddings
-from langchain.embeddings import HuggingFaceEmbeddings
+# from langchain.embeddings import SentenceTransformerEmbeddings
+from langchain_community.embeddings import SentenceTransformerEmbeddings
+# from langchain.embeddings import HuggingFaceEmbeddings
 from sentence_transformers import SentenceTransformer
-# from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 
 
 def create_HuggingFaceEmbeddings():

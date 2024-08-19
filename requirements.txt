@@ -7,3 +7,4 @@ sentence-transformers
 chromadb
 langchain_chroma
 langchain-huggingface
+streamlit
